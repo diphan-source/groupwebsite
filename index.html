@@ -1,26 +1,30 @@
-<!doctype html>
-<html>
-<head>
-<title>Idea Development Group Website</title>
-<!-- Character set-->
-<meta charset="UTF-8">
-<!-- Device Width-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<!-- Loading font style sheets-->
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
-<!-- Our own css file -->
- <link rel="stylesheet" href="main.css" />
-</head>
-<body class="light">
-<!-- Navigation Bar Or Menu 
-We use nav tag when we are dealing
-with navigation menu elements in html
--->
-<nav class="navbar">
-    <ul class="navnar-nav">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theme Toggler</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+
+    <script defer src="main.js"></script>
+  </head>
+
+  <body class="light">
+    <!-- Navbar -->
+
+    <nav class="navbar">
+      <ul class="navbar-nav">
         <li class="nav-item">Home</li>
         <li class="nav-item">About</li>
+
         <!-- Dropdown -->
+
         <li class="nav-item has-dropdown">
           <a href="#">Theme</a>
           <ul class="dropdown">
@@ -35,20 +39,19 @@ with navigation menu elements in html
             </li>
           </ul>
         </li>
+
         <li class="nav-item">Login</li>
-    </ul>
-</nav>
-<!-- Header part of HTML to deal with head section of the body
-In header tag, you can include the menu, logo Basically elemts that appear
-on top of your website
- -->
-<header>
+      </ul>
+    </nav>
+
+    <header>
       <img src="logo.png" class="logo" />
       <h1>Front-End Web Development,<br />Fired Up</h1>
 
       <p>Flutter, Firebase, JavaScript, Node.js</p>
-</header>
-<main>
+    </header>
+
+    <main>
       <h3>Sailor Ipsum</h3>
       <p>
         Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast
@@ -92,9 +95,5 @@ on top of your website
         boatswain schooner gaff booty Jack Tar transom spirits.
       </p>
     </main>
-  <footer>
-    &copy; Idea Development 2020
-  </footer>
-  <script defer src="main.js"></script>
-</body>
+  </body>
 </html>
