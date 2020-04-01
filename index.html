@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<title>Group Website</title>
+<title>Idea Development Group Website</title>
 <!-- Character set-->
 <meta charset="UTF-8">
 <!-- Device Width-->
@@ -11,7 +11,32 @@
 <!-- Our own css file -->
  <link rel="stylesheet" href="main.css" />
 </head>
-<body>
+<body class="light">
+<!-- Navigation Bar Or Menu 
+We use nav tag when we are dealing
+with navigation menu elements in html
+-->
+<nav class="navbar">
+    <ul class="navnar-nav">
+        <li class="nav-item">Home</li>
+        <li class="nav-item">About</li>
+        <!-- Dropdown -->
+        <li class="nav-item has-dropdown">
+          <a href="#">Theme</a>
+          <ul class="dropdown">
+            <li class="dropdown-item">
+              <a id="light" href="#">light</a>
+            </li>
+            <li class="dropdown-item">
+              <a id="dark" href="#">dark</a>
+            </li>
+            <li class="dropdown-item">
+              <a id="solar" href="#">solarize</a>
+            </li>
+          </ul>
+        </li>
+    </ul>
+</nav>
   <h1>A website to be developet by:</h1>
   <ol>
     <li>Diphan</li>
