@@ -19,17 +19,21 @@ In this case, we can use an event delegation pattern to listen,
 //grab elemnts from the DOM
 const calculator = document.querySelector('.calculator');
 const keys = calculator.querySelector('.calculator_keys');
-const key = e.target;
-const action = key.dataset.action;
 
 //If the key does not have a data-action attribute, it must be a number key.
 if(!action) {
     console.log('Number key!')
+};
+
+if(action === 'add' || action === 'subtract' || action === 'divide' || action === 'multiply') {
+    console.log("Operator Key!")
 }
 
 //add event listeners
 keys.addEventListener('click', e => {
     if(e.target.matches('button')) {
+        const key = e.target;
+        const action = key.dataset.action;
 
     }
 })
