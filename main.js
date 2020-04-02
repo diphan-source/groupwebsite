@@ -26,5 +26,5 @@ const bgmusic = document.getElementById("relax-music");
 //play music
 window.onload = function() {
     bgmusic.play();
-    console.log(bgmusic);
+    console.log("background music playing!");
 }
