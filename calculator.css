@@ -45,6 +45,7 @@ main {
   display: flex;
   height: 100vh;
   justify-content: right;
+  overflow: hidden;
 }
 
 .container {
