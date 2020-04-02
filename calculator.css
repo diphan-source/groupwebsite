@@ -1,0 +1,8 @@
+/*
+We can use CSS Grid to make the keys,
+since they’re arranged in a grid-like format. 
+*/
+
+.calculator_keys {
+    display: grid;
+}
