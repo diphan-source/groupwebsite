@@ -46,7 +46,7 @@ button:focus {
 main {
   align-items: center;
   background-image: linear-gradient(236deg, #74ebd5, #acb6e5);
-  display: flex;
+  display: inline-flexbox;
   height: 100vh;
   justify-content: center;
 }
