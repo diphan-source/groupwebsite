@@ -24,7 +24,7 @@ document.getElementById('themeButton').onclick = toggleTheme;
 const bgmusic = document.getElementById("relax-music");
 
 //play music
-window.onload = function() {
+window.onload = () => {
     bgmusic.play();
     console.log("background music playing!");
 }
