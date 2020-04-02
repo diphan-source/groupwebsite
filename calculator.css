@@ -3,10 +3,6 @@ We can use CSS Grid to make the keys,
 since they’re arranged in a grid-like format. 
 */
 
-.calculator_keys {
-    display: grid;
-}
-
 input,
 textarea,
 button {
@@ -46,7 +42,7 @@ button:focus {
 main {
   align-items: center;
   background-image: linear-gradient(236deg, #74ebd5, #acb6e5);
-  display: inline-flexbox;
+  display: flex;
   height: 100vh;
   justify-content: center;
 }
