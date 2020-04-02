@@ -20,3 +20,8 @@ function toggleTheme() {
 }
 
 document.getElementById('themeButton').onclick = toggleTheme;
+
+//play music
+window.onload = function() {
+    document.getElementById("relax-music").play();
+}
