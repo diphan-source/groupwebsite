@@ -21,7 +21,10 @@ function toggleTheme() {
 
 document.getElementById('themeButton').onclick = toggleTheme;
 
+const bgmusic = document.getElementById("relax-music");
+
 //play music
 window.onload = function() {
-    document.getElementById("relax-music").play();
+    bgmusic.play();
+    console.log(bgmusic);
 }
