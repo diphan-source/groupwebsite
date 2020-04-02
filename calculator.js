@@ -130,8 +130,8 @@ const updateVisualState = (key, calculator) => {
 }
 
 const calculator = document.querySelector('.calculator')
-const display = calculator.querySelector('.calculator__display')
-const keys = calculator.querySelector('.calculator__keys')
+const display = calculator.querySelector('.calculator_display')
+const keys = calculator.querySelector('.calculator_keys')
 
 keys.addEventListener('click', e => {
   if (!e.target.matches('button')) return
